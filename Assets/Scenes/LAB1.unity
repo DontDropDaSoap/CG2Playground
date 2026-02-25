@@ -179,9 +179,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
-  field of view: 15
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -207,8 +207,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3813378}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.08103502, y: 0.87510276, z: 0.15745607, w: 0.45037326}
-  m_LocalPosition: {x: 10.295, y: 6.632, z: -28.435}
+  m_LocalRotation: {x: -0.17219308, y: 0.45676425, z: -0.0906074, w: -0.8680474}
+  m_LocalPosition: {x: 18.21, y: 12.42, z: -34.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 62626643}
   - component: {fileID: 62626642}
   m_Layer: 0
-  m_Name: C11
+  m_Name: C14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 144345374}
   - component: {fileID: 144345373}
   m_Layer: 0
-  m_Name: C9
+  m_Name: C11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 270645360}
   - component: {fileID: 270645359}
   m_Layer: 0
-  m_Name: C13
+  m_Name: C17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1185,8 +1185,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516515561}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.00000004371139}
-  m_LocalPosition: {x: 0.1900002, y: 0.42554948, z: 1.52}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.19, y: 0.46600002, z: 2.6799998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1355,7 +1355,7 @@ GameObject:
   - component: {fileID: 591853093}
   - component: {fileID: 591853092}
   m_Layer: 0
-  m_Name: C7
+  m_Name: C8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1567,7 +1567,7 @@ GameObject:
   - component: {fileID: 991635691}
   - component: {fileID: 991635692}
   m_Layer: 0
-  m_Name: C12.5
+  m_Name: C16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1597,7 +1597,7 @@ MonoBehaviour:
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 91.9
+    FieldOfView: 90
     OrthographicSize: 5
     NearClipPlane: 0.01
     FarClipPlane: 1000
@@ -1893,7 +1893,7 @@ GameObject:
   - component: {fileID: 1057578616}
   - component: {fileID: 1057578615}
   m_Layer: 0
-  m_Name: C8
+  m_Name: C10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2210,7 +2210,7 @@ GameObject:
   - component: {fileID: 1155037923}
   - component: {fileID: 1155037922}
   m_Layer: 0
-  m_Name: C12
+  m_Name: C15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2467,7 +2467,7 @@ GameObject:
   - component: {fileID: 1244710275}
   - component: {fileID: 1244710274}
   m_Layer: 0
-  m_Name: C7.5
+  m_Name: C9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2607,7 +2607,7 @@ GameObject:
   - component: {fileID: 1429549775}
   - component: {fileID: 1429549774}
   m_Layer: 0
-  m_Name: C6 (1)
+  m_Name: C6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2682,7 +2682,7 @@ GameObject:
   - component: {fileID: 1456072405}
   - component: {fileID: 1456072404}
   m_Layer: 0
-  m_Name: C9.5
+  m_Name: C12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2757,7 +2757,7 @@ GameObject:
   - component: {fileID: 1512856750}
   - component: {fileID: 1512856749}
   m_Layer: 0
-  m_Name: Global Volume (1)
+  m_Name: Global Volume (Normal)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2881,7 +2881,7 @@ GameObject:
   - component: {fileID: 1553799734}
   - component: {fileID: 1553799733}
   m_Layer: 0
-  m_Name: C6
+  m_Name: C7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3031,7 +3031,7 @@ GameObject:
   - component: {fileID: 1742106469}
   - component: {fileID: 1742106468}
   m_Layer: 0
-  m_Name: C10
+  m_Name: C13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3364,7 +3364,7 @@ GameObject:
   - component: {fileID: 2083549587}
   - component: {fileID: 2083549586}
   m_Layer: 0
-  m_Name: Global Volume
+  m_Name: Global Volume (Grayscale)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
