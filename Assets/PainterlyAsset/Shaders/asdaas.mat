@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 1971
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -48,16 +48,16 @@ Material:
     m_Floats:
     - _Metalic: 0
     - _QueueControl: 0
-    - _QueueOffset: 0
+    - _QueueOffset: -29
     - _Smoothness: 0
-    - _StrokeBlendingNoiseScale: 500
-    - _StrokeBlendingNoiseStrength: 0.15
+    - _StrokeBlendingNoiseScale: 8.82
+    - _StrokeBlendingNoiseStrength: 0.5
     - _StrokeRandomness: 1
-    - _StrokeScale: 5
+    - _StrokeScale: 3.24
     - _UseBlendingNoise: 1
-    - _Variation: 0.1
+    - _Variation: 0.281
     m_Colors:
-    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 0.7830189, g: 0.2991723, b: 0.2991723, a: 0}
     - _VariationColorA: {r: 0, g: 0, b: 0, a: 0}
     - _VariationColorB: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
