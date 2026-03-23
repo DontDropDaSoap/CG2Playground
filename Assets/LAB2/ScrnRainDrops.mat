@@ -23,8 +23,28 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Drip_Mask:
+        m_Texture: {fileID: 2800000, guid: 6252939ee82af864a91fd9546be57176, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DropsOnLens_7c4e00fe0cfb44fea8c61f4731bb510b_DropsTxt_2815028634_Texture2D:
         m_Texture: {fileID: 2800000, guid: 0aa25ace07e91cb4dab44ec9558a68a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DropsTxt:
+        m_Texture: {fileID: 2800000, guid: 0aa25ace07e91cb4dab44ec9558a68a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LensDrops_91dd577e1bb54685810e47c34c683c01_DripMask_2285082835_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 6252939ee82af864a91fd9546be57176, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LensDrops_91dd577e1bb54685810e47c34c683c01_RainDripTxt_4153476455_Texture2D:
+        m_Texture: {fileID: 2800000, guid: ca91a5d82642c3e43b9ef4e39d080d41, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RainDrip_Txt:
+        m_Texture: {fileID: 2800000, guid: ca91a5d82642c3e43b9ef4e39d080d41, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -40,7 +60,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - _Drops_Bool: 0.5
+    - _Rain_Bool: 1
+    m_Colors:
+    - _Drip_Size: {r: 0.7, g: 0.7, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

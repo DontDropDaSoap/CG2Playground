@@ -207,8 +207,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3813378}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.017308129, y: 0.97163665, z: 0.07523741, w: 0.22352193}
-  m_LocalPosition: {x: 10.112, y: 5.591, z: -27.386}
+  m_LocalRotation: {x: -0.17219308, y: 0.45676425, z: -0.0906074, w: -0.8680474}
+  m_LocalPosition: {x: 18.21, y: 12.42, z: -34.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -905,7 +905,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 0.7755133, b: 0.42830187, a: 1}
-  m_Intensity: 1.4
+  m_Intensity: 1.23
   m_Range: 7.38
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -968,7 +968,7 @@ Transform:
   m_GameObject: {fileID: 297298914}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.637, y: 8.682, z: -32.616}
+  m_LocalPosition: {x: 10.637, y: 8.475, z: -32.616}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1093,6 +1093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340245405}
   - component: {fileID: 340245406}
+  - component: {fileID: 340245407}
   m_Layer: 0
   m_Name: Raindrops Volume
   m_TagString: Untagged
@@ -1128,10 +1129,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsGlobal: 1
-  priority: 0
+  priority: 7
   blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 0}
+  weight: 0
+  sharedProfile: {fileID: 11400000, guid: bed60c001509dc3408703daee8f8ae85, type: 2}
+--- !u!95 &340245407
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340245404}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &380572832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,8 +1257,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516515561}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.19, y: 0.46600002, z: 2.6799998}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.00000004371139}
+  m_LocalPosition: {x: 0.1900002, y: 0.42554948, z: 1.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2281,6 +2304,7 @@ Transform:
   - {fileID: 1512856750}
   - {fileID: 1824379102}
   - {fileID: 340245405}
+  - {fileID: 1601129011}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1155037921
@@ -2471,7 +2495,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 0.7755133, b: 0.42830187, a: 1}
-  m_Intensity: 1.4
+  m_Intensity: 0.32
   m_Range: 7.38
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2534,9 +2558,9 @@ Transform:
   m_GameObject: {fileID: 1241228678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.684, y: 6.957, z: -27.102}
+  m_LocalPosition: {x: 0.754, y: 6.998, z: -26.781}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3161,6 +3185,78 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1790862419}
   m_LocalEulerAnglesHint: {x: -20.4, y: 125.535, z: 0}
+--- !u!1 &1601129010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601129011}
+  - component: {fileID: 1601129012}
+  - component: {fileID: 1601129013}
+  m_Layer: 0
+  m_Name: Kurosawa Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1601129011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601129010}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1118218820}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1601129012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601129010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 6
+  blendDistance: 0
+  weight: 0
+  sharedProfile: {fileID: 11400000, guid: 6157d325e9daa9a4f898996740256da8, type: 2}
+--- !u!95 &1601129013
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601129010}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1617438445
 GameObject:
   m_ObjectHideFlags: 0
@@ -3442,6 +3538,12 @@ PlayableDirector:
     value: {fileID: 2083549586}
   - key: {fileID: 2698134708804616802, guid: e1ff1154b3a577247a12af12696691eb, type: 2}
     value: {fileID: 1512856751}
+  - key: {fileID: 2510842284425199764, guid: e1ff1154b3a577247a12af12696691eb, type: 2}
+    value: {fileID: 1824379104}
+  - key: {fileID: -1487273722585794431, guid: e1ff1154b3a577247a12af12696691eb, type: 2}
+    value: {fileID: 340245407}
+  - key: {fileID: 7627028327478782956, guid: e1ff1154b3a577247a12af12696691eb, type: 2}
+    value: {fileID: 1601129013}
   m_ExposedReferences:
     m_References:
     - 85c9b1e9d481f924b95fab239cd38550: {fileID: 1456072404}
@@ -3515,6 +3617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1824379102}
   - component: {fileID: 1824379103}
+  - component: {fileID: 1824379104}
   m_Layer: 0
   m_Name: Twilight Volume
   m_TagString: Untagged
@@ -3554,6 +3657,28 @@ MonoBehaviour:
   blendDistance: 0
   weight: 0
   sharedProfile: {fileID: 11400000, guid: 1226e03d1dc04404abdf751b2bddc6fd, type: 2}
+--- !u!95 &1824379104
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824379101}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2006516662
 PrefabInstance:
   m_ObjectHideFlags: 0
